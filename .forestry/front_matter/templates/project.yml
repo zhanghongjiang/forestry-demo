@@ -21,6 +21,12 @@ fields:
   type: tag_list
   hidden: false
   default: []
+- type: datetime
+  label: "日历"
+  name: __
+  hidden: false
+  config:
+    date_format: YYYY-MM-DD
 - name: slug
   label: Slug
   type: text
